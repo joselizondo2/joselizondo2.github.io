@@ -7,7 +7,7 @@ font-family: "poppins",sans-serif;
 }
 body{
     min-height: 100vh;
-    background: url(imagenes/HOVER2.JPG)no-repeat;
+    background: url(imagenes/HOVER.JPG)no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -21,8 +21,8 @@ align-items: center;
 }
 .contact-info{
 color: #fff;
-max-width: 500px;
-line-height: 65px;
+max-width: 500;
+line-height: 65;
 padding-left: 50;
 font-size: 18;
 }
