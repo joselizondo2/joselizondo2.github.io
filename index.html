@@ -10,7 +10,16 @@
 
 </head>
 <!--<a>nada</a>-->
-
+var xhr = new XMLHttpRequest();
+xhr.open('GET', 'https://bar.com/users');
+xhr.addEventListener('load', function (ev) {
+	if (xhr.status === 200) {
+		var result = JSON.parse(xhr.responseText);
+		// ...
+	}
+}, false);
+xhr.send();
+    
 <body>
 
     <header>
