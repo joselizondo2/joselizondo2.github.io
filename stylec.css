@@ -7,7 +7,7 @@ font-family: "poppins",sans-serif;
 }
 body{
     min-height: 100vh;
-    background: url(HOVER.JPG)no-repeat;
+    background: url(Imagenes/Hover.jpg)no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
